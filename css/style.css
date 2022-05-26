@@ -133,7 +133,9 @@ img{
 /* ------BODY------------------ */
 .main {
 }
-
+.code-block {
+    padding-top:12px;
+}
 .main__body {
     display: flex;
     flex:1 1 50%;
