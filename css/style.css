@@ -179,6 +179,18 @@ img{
     margin-left: 12px;
     width:100%;
 }
+.footer {
+    background-color: rgba(228, 246, 251, 0.5);
+}
+.footer__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-year {
+    font-size:10px;
+}
 @media (max-width: 1024px) {
     .main__body {
         flex-wrap: wrap;
