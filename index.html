@@ -37,20 +37,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="header__contacts">
-                    <div class="contacts__item">
-                        <h4 class="contact__name">Email</h4>
-                        <a href="mailto:timashkov060896@gmail.com" class="contact__link">Timashkov060896@gmail.com</a>
-                    </div>
-                    <div class="contacts__item">
-                        <h4 class="contact__name">Vk</h4>
-                        <a href="https://vk.com/id652200968" class="contact__link">https://vk.com/id652200968</a>
-                    </div>
-                    <div class="contacts__item">
-                        <h4 class="contact__name">Github</h4>
-                        <a href="https://github.com/AlexeiTim" class="contact__link">https://github.com/AlexeiTim</a>
-                    </div>
-                </div>
+                <nav>
+                    <ul class="header__contacts">
+                        <li class="contacts__item">
+                            <h4 class="contact__name">Email</h4>
+                            <a href="mailto:timashkov060896@gmail.com"
+                                class="contact__link">Timashkov060896@gmail.com</a>
+                        </li>
+                        <li class="contacts__item">
+                            <h4 class="contact__name">Vk</h4>
+                            <a href="https://vk.com/id652200968" class="contact__link">https://vk.com/id652200968</a>
+                        </li>
+                        <li class="contacts__item">
+                            <h4 class="contact__name">Github</h4>
+                            <a href="https://github.com/AlexeiTim"
+                                class="contact__link">https://github.com/AlexeiTim</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -109,18 +113,44 @@
                     <div class="information-block">
                         <h3 class="information-block__main-title">Skills</h3>
                         <div class="information-block__body">
-                            <ul class="li">HTML - beginner</ul>
-                            <ul class="li">CSS - beginner</ul>
-                            <ul class="li">JS - beginner</ul>
-                            <ul class="li">English - A1</ul>
-                            <ul class="li"></ul>
-                            <ul class="li"></ul>
+                            <ul>
+                                <li>HTML - beginner</li>
+                                <li>CSS - beginner</li>
+                                <li>JS - beginner</li>
+                                <li>English - A1</li>
+                            </ul>
                         </div>
+                    </div>
+                    <div class="information-block code-block">
+                        <h3 class="information-block__main-title">Code example</h3>
+                        <div class="information-block__body">
+                            <pre>
+const add = (f) => {
+  return function(b) {
+    return f + b;
+  }
+}                           
+                        </pre>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logos">
+                <div class="logo__github">
+                    <a href="https://github.com/AlexeiTim"><img src="img/github.svg" alt="github"></a>
+                </div>
+                <div class="app-year">2022</div>
+                <div class="logo__rsschool">
+                    <a href="https://rs.school/js/"> <img src="img/rs_school_js.svg" alt="rsschool"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
