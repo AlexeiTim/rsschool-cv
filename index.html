@@ -5,17 +5,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Prata&display=swap"
+        rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>cv</title>
 </head>
 
 <body>
     <header class="header">
+        <div class="header__container container">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#code" class="nav__link">Code example</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">English</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main main__container">
+        <section class="profile" id="profile">
+            <div class="profile__container container">
+                <img src="./img/Avatar.jpg" alt="avatar" class="profile__img">
+                <div class="profile__title-block">
+                    <h1 class="profile-title">ALEKSEI TIMASHKOV</h1>
+                    <h3 class="profile-subtitle">FUTURE FRONT-END DEVELOPER</h3>
+                    <p>At the moment I don't have much experience with both programming
+                        language and frameworks.</p>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <div class="experience__container container">
+                <h2 class="experience__title">Experience</h2>
+                <ul class="experience__list section__list">
+                    <li class="expepience__itme section__item">Electrical mechanic - <span class="section-text">subway,May 2021 - Present</span> </li>
+                    <li class="expepience__itme section__item">Electrician - <span class="section-text">subway,Aug 2018 - Apr 2021</span></li>
+                    <li class="expepience__itme section__item">Technological <span class="section-text">equipment adjuster - Integral,Feb 2015 -Sep 2015</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="education__container container">
+                <h2 class="education__title">Education</h2>
+                <ul class="education__list section__list">
+                    <li class="education__item section__item">Frontend developer - <span class="section-text">Online course RS School, Jun 2022 - Present</span></li>
+                    <li class="education__item section__item">HTML for beginner - <span class="section-text">Online course Code-basic,2022</span></li>
+                    <li class="education__item section__item">CSS for beginner - <span class="section-text">Online course Code-basic,2022</span></li>
+                    <li class="education__item section__item">Javascript for beginner - <span class="section-text">Online course Code-basic,2022</span></li>
+                    <li class="education__item section__item">Electrician - <span class="section-text">Minsk State Polytechnic College,2015 - 2018</span></li>
+                    <li class="education__item section__item">Technological equipment adjuster - <span class="section-text">Minsk State College of
+                        Electronics,2013 - 2015</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills__container container">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list section__list">
+                    <li class="skills__item section__item"><img src="./img/main/html-5.png" alt="HTML" class="section__icon"> HTML - <span class="section-text">beginner</span></li>
+                    <li class="skills__item section__item"><img src="./img/main/css-3.png" alt="CSS" class="section__icon">CSS - <span class="section-text">beginner</span></li>
+                    <li class="skills__item section__item"><img src="./img/main/java-script.png" alt="JS" class="section__icon">JS - <span class="section-text">beginner</span></li>
+                    <li class="skills__item section__item"><img src="./img/main/united-kingdom.png" alt="English" class="section__icon">English - <span class="section-text">A1</span></li>
+                    <li class="skills__item section__item"><img src="./img/main/git.png" alt="GIT" class="section__icon">GIT - <span class="section-text">beginner</span></li>
+                    <li class="skills__item section__item"><img src="./img/main/github.png" alt="Github" class="section__icon">Github - <span class="section-text">beginner</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="code example" id="code">
+            <div class="code example__container container">
+                <h2 class="code__title">Code example</h2>
+                <div class="code-block">
+                    <pre>
+const add = (f) => {
+  return function(b) {
+    return f + b;
+  }
+  }                           
+</pre>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts__container container">
+                <h2 class="contacts__title">Contacts</h2>
+                <ul class="contacts__list section__list">
+                    <li class="contacts__item section__item"><a href="https://vk.com/id652200968" class="contacts__link"><img src="./img/main/vk.png" alt="VK" class="section__icon">VK</a></li>
+                    <li class="contacts__item section__item"><a href="mailto:timashkov060896@gmail.com"
+                            class="contacts__link"><img src="./img/main/gmail.png" alt="Email" class="section__icon">Email</a></li>
+                    <li class="contacts__item section__item"><a href="https://discordapp.com/users/445480812905889793/"
+                            class="contacts__link"><img src="./img/main/discord.png" alt="Discord" class="section__icon">Discord</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="project" id="project">
+            <div class="project__container container">
+                <h2 class="project__title">Projects</h2>
+                <ul class="project__list section__list">
+                    <li class="project__list section__item"><a href="https://alexeitim.github.io/practic-HTML-CSS-JS/"
+                            class="project__link">Relvise</a></li>
+                    <li class="project__list section__item"><a href="https://alexeitim.github.io/rsschool-cv/"
+                            class="project__link">CV</a></li>
+                    <li class="project__list section__item"><a
+                            href="https://rolling-scopes-school.github.io/alexeitim-JSFEPRESCHOOL2022Q2/travel/"
+                            class="project__link">Travel</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <nav class="footer__nav">
+                <ul class="footer__nav-list nav__list">
+                    <li class="nav__item"><a href="" class="footer__nav__link nav__link"><img src="./img/github.svg"
+                                alt="github" class="link__github"><span class="footer__myName">AlexeiTim</span> </a></li>
+                    <li class="nav__item"><span class="footer-year">2022</span> </li>
+                    <li class="nav__item"><a href="" class="footer__nav__link nav__link"><img
+                                src="./img/rs_school_js.svg" alt="rsschool" class="link__rsschool"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- <header class="header">
         <div class="container">
             <div class="header-body">
                 <div class="header__person">
@@ -150,7 +272,7 @@ const add = (f) => {
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
